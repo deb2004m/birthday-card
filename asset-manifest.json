@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/birthday-card/static/css/main.b87159aa.css",
+    "main.js": "/birthday-card/static/js/main.095534ee.js",
+    "static/js/453.5569ad00.chunk.js": "/birthday-card/static/js/453.5569ad00.chunk.js",
+    "static/media/birthday-music.mp3": "/birthday-card/static/media/birthday-music.390bb06cce3972e5617d.mp3",
+    "static/media/cake.png": "/birthday-card/static/media/cake.3ab7bff5b8ae4c8524c0.png",
+    "static/media/cakeCut.png": "/birthday-card/static/media/cakeCut.c64ee955aba0de8671aa.png",
+    "static/media/future-HOPE.jpg": "/birthday-card/static/media/future-HOPE.7e6b50b78ff60218bf30.jpg",
+    "static/media/photo2.jpg": "/birthday-card/static/media/photo2.29a6c007de0d5f763b10.jpg",
+    "static/media/photo1.jpg": "/birthday-card/static/media/photo1.55c4c29f3fd09931bc7b.jpg",
+    "static/media/photo4.jpg": "/birthday-card/static/media/photo4.a0407a8f3e812fa82d2d.jpg",
+    "static/media/photo3.jpg": "/birthday-card/static/media/photo3.f7e46f3288fab99a3d02.jpg",
+    "index.html": "/birthday-card/index.html",
+    "main.b87159aa.css.map": "/birthday-card/static/css/main.b87159aa.css.map",
+    "main.095534ee.js.map": "/birthday-card/static/js/main.095534ee.js.map",
+    "453.5569ad00.chunk.js.map": "/birthday-card/static/js/453.5569ad00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b87159aa.css",
+    "static/js/main.095534ee.js"
+  ]
+}
