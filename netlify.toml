@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+  node_version = "18"
+
+[build.environment]
+  NPM_FLAGS = "--prefer-offline --no-audit"
