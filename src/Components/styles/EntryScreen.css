@@ -1,0 +1,47 @@
+.entry-screen {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ffebf0, #fff0f5);
+  height: 150vh;
+}
+
+
+.magic{
+  margin-top: 100px;
+  padding: 30px;
+}
+.magic h1{
+  padding: 10px 0px 20px 0px;
+}
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.carousel-slide {
+  text-align: center;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carousel-slide p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .cover-text {
+    font-size: 14px; /* make text smaller */
+    padding: 8px;
+  }
+  .cover-img {
+    width: 100px;
+
+  }
+}

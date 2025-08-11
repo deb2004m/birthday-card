@@ -1,0 +1,40 @@
+.cake-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.cake-container img {
+  border-radius: 15px;
+  width: 400px;
+  height: 500px;
+  animation: bounce 2s infinite;
+  z-index: -1;
+}
+
+.cake-image:hover {
+  transform: scale(1.05);
+}
+
+.click-note {
+  padding: 5px;
+  background-color: teal;
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+  animation: blink 1s infinite;
+  
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { 
+    transform: translateY(-15px); 
+}
+
+}
