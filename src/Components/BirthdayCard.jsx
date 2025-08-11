@@ -7,7 +7,7 @@ import "./styles/BirthdayCard.css";
 import TitleSection from "./TitleSection";
 import WishBox from "./WishBox";
 
-export default function BirthdayCard({ onBack }) {
+export default function BirthdayCard() {
   return (
     <div className="birthday-card">
         <TitleSection/>

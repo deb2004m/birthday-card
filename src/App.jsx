@@ -8,8 +8,8 @@ import "./App.css";
 
 export default function App() {
   const [view, setView] = useState("entry"); // entry | card | gallery
-  const [isCelebrating, setIsCelebrating] = useState(false);
-  const [musicPlaying, setMusicPlaying] = useState(false);
+  const [isCelebrating] = useState(false);
+  const [musicPlaying] = useState(false);
 
 
   return (
