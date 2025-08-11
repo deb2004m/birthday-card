@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import FireworksCanvas from "./Components/FireworksCanvas";
 import BackgroundMusic from "./Components/BackgroundMusic";
-import CelebrateButton from "./Components/CelebrateButton";
 import EntryScreen from "./Components/EntryScreen";
 import BirthdayCard from "./Components/BirthdayCard";
 import PhotoGallery from "./Components/PhotoGallery"; // create this component
@@ -12,12 +11,6 @@ export default function App() {
   const [isCelebrating, setIsCelebrating] = useState(false);
   const [musicPlaying, setMusicPlaying] = useState(false);
 
-  const handleCelebrate = () => {
-    if (isCelebrating) return;
-    setIsCelebrating(true);
-    setMusicPlaying(true);
-    setTimeout(() => setIsCelebrating(false), 5000);
-  };
 
   return (
     <>
