@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import cover from "../assets/cover.jpg";
-import PhotoGallery from "./PhotoGallery";
 import "./styles/EntryScreen.css"
 
 export default function EntryScreen({ onEnterCard, onEnterGallery }) {
-  const [view, setView] = useState("main"); // main | gallery
+  const [view] = useState("main"); // main | gallery
 
 
 
