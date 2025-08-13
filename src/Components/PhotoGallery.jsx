@@ -2,18 +2,18 @@ import React from "react";
 import "./styles/PhotoGallery.css";
 
 // Import images from src/assets
-import img1 from "../assets/photo1.jpg";
-import img2 from "../assets/photo2.jpg";
+import img1 from "../assets/photo1.jpeg";
+import img2 from "../assets/photo2.jpeg";
 import img3 from "../assets/photo3.jpg";
-import img4 from "../assets/photo4.jpg";
-import img5 from "../assets/future-HOPE.jpg"
+import img4 from "../assets/photo4.jpeg";
+import img5 from "../assets/photo5.jpg"
 
 const images = [
   { src: img1, caption: "Best Moments" },
   { src: img2, caption: "Special Day" },
   { src: img3, caption: "Laughs & Love" },
   { src: img4, caption: "Forever Memories" },
-  {src: img5, caption: "clg Senior"}
+  {src: img5, caption: "Happy life"}
 ];
 
 export default function PhotoGallery() {

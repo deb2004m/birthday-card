@@ -10,7 +10,7 @@ export default function TitleSection() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1>🎉 Happy 24th Birthday Pragati! 🎉</h1>
+      <h1>🎉 Happy th Birthday "Name"! 🎉</h1>
       <p>Wishing you endless joy, love, and happiness on your special day!</p>
     </motion.div>
   );

@@ -12,7 +12,7 @@ export default function EntryScreen({ onEnterCard, onEnterGallery }) {
         <>
       
         <div className="magic">
-          <h1>💙🌹 Sending you all my love on your special day to the most Beautiful Girl, my Senior🎉🦋🧿</h1>
+          <h1>💙🌹 Sending you all my love on your special day to the most Beautiful Girl.🎉🦋🧿</h1>
           <button onClick={onEnterCard}>Open Birthday Card</button>
           <button onClick={onEnterGallery} style={{ margin: "35px" }}>
             Show Magic ✨
